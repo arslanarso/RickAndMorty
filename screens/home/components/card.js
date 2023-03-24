@@ -67,7 +67,7 @@ export default ({
   };
   console.warn(fav)
   return (
-    <TouchableNativeFeedback onPress={() => readData()}>
+    <TouchableNativeFeedback onPress={() => _onPress()}>
       <View style={[styles.main, {width, backgroundColor}]}>
         <View>
           <FastImage
